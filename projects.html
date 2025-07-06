@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Keerthi Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <span>Keerthi M</span>
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i> <!-- Hamburger Icon -->
+      </div>
+
+      <div class="links" id="navbarLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+ <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-boxes">
+
+            <div class="project-card">
+                <h3>Restaurant Ranking System using Fuzzy AHP, TOPSIS and SE</h3>
+                <img src="restaurant ranking image.webp" alt="Project 1 Image" />
+                <p>Developed a ranking system for restaurants by combining multi-criteria decision-making techniques like Fuzzy AHP, TOPSIS, and sentiment evaluation.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Text to Voice Conversion using HTML, CSS, JS</h3>
+                <img src="text to voce image.jpg" alt="Project 2 Image" />
+                <p>Built a site that converts user input text into speech output using browser-based JavaScript APIs for text-to-speech synthesis.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>TransNavigator</h3>
+                <img src="transnavigator image.jpeg" alt="Project 3 Image" />
+                <p>Transgender individuals face significant physical and mental health challenges, especially around gender affirmation surgeries. Yet, there's a gap in personalized post-surgery risk prediction and accessible mental health support. Predicting gender affirmation surgery risk and providing mental health support using a chatbot assistant.</p>
+            </div>
+
+        </div>
+    </section>
+<script>
+  function toggleMenu() {
+    document.getElementById('navbarLinks').classList.toggle('show');
+  }
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Keerthi Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <span>Keerthi M</span>
+      </div>
+
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i> <!-- Hamburger Icon -->
+      </div>
+
+      <div class="links" id="navbarLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <ul>
+            <li><p>Hello! I am a passionate and dedicated individual with a strong interest in technology and continuous learning. I enjoy tackling challenges and coming up with creative solutions in various domains including web development, data science and analysis.</p></li>
+            <li><p>I have earned multiple certifications from prestigious platforms such as <strong>IIT Madras, IBM, Infosys Springboard, and Codekaro</strong>, building a strong foundation in Python programming, machine learning, data visualization, and web technologies. Through hands-on projects like a Restaurant Ranking System using Fuzzy AHP & TOPSIS, Text-to-Voice Web site, and TransNavigator (a health-support chatbot), I have applied these skills to solve real-world problems with creativity and innovation.</p></li>
+            <li><p>A curious coder, data enthusiast, and lifelong learner — Whether it's designing user interfaces, diving into machine learning, or analyzing data, I enjoy every part of the problem-solving journey. Beyond the technical realm, I value teamwork, discipline, and balance in life. I strive to grow both professionally and personally through diverse experiences and opportunities.</p></li>
+        </ul>
+        
+        
+    </section>
+    <script>
+        function toggleMenu() {
+            document.getElementById('navbarLinks').classList.toggle('show');
+     }
+    </script>
+
+</body>
+</html>
